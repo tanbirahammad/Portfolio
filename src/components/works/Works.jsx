@@ -10,18 +10,34 @@ import Portfolio6 from '../../assets/portfolio-6.png';
 const Works = () => {
     return (
         <section id='works'>
-            <h2 className="worksTitle">My Portfolio</h2>
-            <span className="worksDesc">I take pride in paying attention to the smallest details and making sure that my work is pixel perfect. I am excited to bring my skills and experience to help businesses achieve their goals and create a strong online presence.</span>
-            <div className="worksImgs">
-                <img src={Portfolio1} alt="" className="worksImg" />
-                <img src={Portfolio2} alt="" className="worksImg" />
-                <img src={Portfolio3} alt="" className="worksImg" />
-                <img src={Portfolio4} alt="" className="worksImg" />
-                <img src={Portfolio5} alt="" className="worksImg" />
-                <img src={Portfolio6} alt="" className="worksImg" />
-            </div>
-            <button className="workBtn">See More</button>
-        </section>
+        <h2 className="worksTitle">My Portfolio</h2>
+        <span className="worksDesc">I take pride in paying attention to the smallest details and making sure that my work is pixel perfect. I am excited to bring my skills and experience to help businesses achieve their goals and create a strong online presence.</span>
+        <div className="worksImgs">
+            <a href="https://movieapp-lovat-two.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <img src={Portfolio1} alt="Portfolio Image 1" className="worksImg" />
+            </a>
+            <a href="https://apple-clonee-umber.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <img src={Portfolio2} alt="Portfolio Image 2" className="worksImg" />
+            </a>
+            <a href="https://knowledge-cafeee.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <img src={Portfolio3} alt="Portfolio Image 3" className="worksImg" />
+            </a>
+            <a href="https://donation-campaign-henna.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <img src={Portfolio4} alt="Portfolio Image 4" className="worksImg" />
+            </a>
+            <a href="https://even-management.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <img src={Portfolio5} alt="Portfolio Image 5" className="worksImg" />
+            </a>
+            <a href="https://course-registration-app.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <img src={Portfolio6} alt="Portfolio Image 6" className="worksImg" />
+            </a>
+        </div>
+        <a href="https://github.com/tanbirahammad?tab=repositories" target="_blank">
+    <button className="workBtn cursor-pointer">See More</button>
+</a>
+
+    </section>
+    
     );
 }
 

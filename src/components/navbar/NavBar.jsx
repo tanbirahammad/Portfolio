@@ -9,7 +9,8 @@ const NavBar = () => {
     const [showMenu, setShowMenu] = useState(false);
 
     return (
-        <nav className="navbar">
+       
+ <nav className="navbar ">
             <img src={logo} alt="Logo" className='logo'/>
             
             {/* Desktop Menu */}
@@ -21,7 +22,7 @@ const NavBar = () => {
             </div>
 
             {/* Contact Button */}
-            <button className="desktopMenuBtn" onClick={() => {
+            <button className="desktopMenuBtn cursor-pointer" onClick={() => {
                 document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
             }}>
                 <img src={contactImg} alt="Contact" className="desktopMenuImg" />
@@ -40,6 +41,7 @@ const NavBar = () => {
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
             </div>
         </nav>
+       
     );
 }
 

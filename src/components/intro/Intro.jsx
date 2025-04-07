@@ -6,15 +6,31 @@ import { Link } from 'react-scroll';
 
 const Intro = () => {
     return (
-       <section id="intro">
+     
+        <section  id="intro">
                    <div className="introContent">
                        <span className="hello">Hello,</span>
-                       <span className="introText">I'm <span className="introName">Smith</span> <br />Website Designer</span>
-                       <p className="introPara">I am a skilled web designer with experience in creating<br />visually appealing and user friendly websites.</p>
-                       <Link><button className="btn"><img src={btnImg} alt="Hire" className='btnImg'/> Hire Me</button></Link>
+                       <span className="introText">I'm <span className="introName">Tanbir</span> <br />Frontend Developer</span>
+                       <p className="introPara">Passionate Frontend Web Developer, I create user-friendly, responsive <br /> websites using modern technologies.</p>
+                       <Link to="/hire">
+  <button onClick={() => {
+                document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
+            }} className="btn cursor-pointer">
+    <img src={btnImg} alt="Hire" className="btnImg" /> Hire Me
+  </button>
+</Link>
+
                    </div>
                    <img src={bg} alt="Profile" className="bg" />
                </section>
+
+
+
+
+
+
+
+       
     );
 }
 

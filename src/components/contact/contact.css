@@ -68,11 +68,18 @@
 
 .submitBtn {
     background: white;
+    color: black;
     border: none;
     border-radius: 0.5rem;
     margin: 2rem;
-    padding: 0.75rem 3.5rem;
+    padding: 0.75rem 3.5rem; /* Adjust padding if necessary */
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline-flex;  /* Ensure the text is centered */
+    align-items: center;
+    justify-content: center;
 }
+
 
 .links {
     display: flex;

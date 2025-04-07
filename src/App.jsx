@@ -12,7 +12,10 @@ function App() {
   return (
     <>
       <NavBar/>
+      
       <Intro/>
+      
+      
       <Skill/>
       <Works/>
       <Contact/>

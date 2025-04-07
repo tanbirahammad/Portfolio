@@ -9,16 +9,18 @@
 
 .bg {
     position: absolute;
-    top: -4rem;
+    top: 4rem;  /* Adjust this value to match your navbar height */
     right: 0;
     z-index: -1;
     object-fit: cover;
     height: 100vh;
 }
 
+
 .introContent {
+    margin-top: 20px;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
@@ -44,16 +46,23 @@
 
 .btn {
     background: white;
+    color: black;  /* Text color */
     margin: 1rem 0;
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .btnImg {
     object-fit: cover;
-    margin: 0 0.25rem;
-    height: 1rem;
+    margin-right: 0.5rem;
+    height: 1.5rem; /* Increased size */
+    width: 1.5rem;  /* Ensures the image has a width */
 }
 
 @media screen and (max-width:840px) {

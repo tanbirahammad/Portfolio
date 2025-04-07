@@ -43,8 +43,14 @@
     border: none;
     border-radius: 2rem;
     background: white;
+    color: black; /* Ensure the text is visible */
     font-size: 1rem;
+    font-weight: 600; /* Optional: makes the text bolder and easier to read */
+    display: inline-flex; /* Use flexbox to ensure text is properly aligned */
+    align-items: center;
+    justify-content: center; /* Center the text inside the button */
 }
+
 
 @media screen and (max-width:585px) {
     .worksImg {
