@@ -10,8 +10,8 @@ const Intro = () => {
         <section  id="intro">
                    <div className="introContent">
                        <span className="hello">Hello,</span>
-                       <span className="introText">I'm <span className="introName">Tanbir</span> <br />Frontend Developer</span>
-                       <p className="introPara">Passionate Frontend Web Developer, I create user-friendly, responsive <br /> websites using modern technologies.</p>
+                       <span className="introText">I'm <span className="introName">Tanbir</span> <br />FullStack Developer</span>
+                       <p className="introPara">Passionate Web App Developer, I create user-friendly, responsive <br /> webapps using modern technologies.</p>
                        <Link to="/hire">
   <button onClick={() => {
                 document.getElementById('contact').scrollIntoView({behavior: 'smooth'});

@@ -16,7 +16,8 @@ import Vedaa from '../../assets/vedaa.png';
 
 
 import facebookIcon from '../../assets/facebook-icon.png';
-import twitterIcon from '../../assets/twitter.png';
+import githubIcon from '../../assets/githubIcon.png';
+import linkdinIcon from '../../assets/linkdinIcon.png';
 import youtubeIcon from '../../assets/youtube.png';
 import instagramIcon from '../../assets/instagram.png';
 import React, { useRef } from 'react';
@@ -67,9 +68,16 @@ const Contact = () => {
                             <img src={facebookIcon} alt="Facebook" className="link" />
                         </a>
 
-                        <img src={twitterIcon} alt="Twitter" className="link" />
-                        <img src={youtubeIcon} alt="YouTube" className="link" />
+                       <a href="https://github.com/tanbirahammad" target='_blank'>
+                       <img src={githubIcon} alt="Github" className="link" />
+                       </a>
+                        <a href="https://www.linkedin.com/in/tanbir-ahammad/" target='_blank'>
+                        <img src={linkdinIcon} alt="Linkdin" className="link" />
+                        </a>
+
+                        <a href="https://www.instagram.com/jahid0117/" target='_blank'>
                         <img src={instagramIcon} alt="Instagram" className="link" />
+                        </a>
                     </div>
                 </form>
             </div>

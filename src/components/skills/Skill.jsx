@@ -8,27 +8,27 @@ const Skill = () => {
     return (
         <section id='skills'>
                    <span className="skillTitle">What I do</span>
-                   <span className="skillDesc">I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites. I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, and JavaScript, as well as design software such as Adobe Photoshop and Illustrator.</span>
+                   <span className="skillDesc">Full-stack developer with expertise in ReactJS and NodeJS. Skilled in building dynamic, responsive web applications, creating scalable back-end solutions with Node, Express, and integrating databases for seamless user experiences.</span>
                    <div className="skillBars">
                        <div className="skillBar">
                            <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
                            <div className="skillBarText">
-                               <h2>UI/UX Design</h2>
-                               <p>This is a demo text, you can write your own content here.</p>
+                               <h2>Figma Design</h2>
+                               <p>Creating pixel-perfect designs focused on seamless user experiences.</p>
                            </div>
                        </div>
                        <div className="skillBar">
                            <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
                            <div className="skillBarText">
-                               <h2>Website Design</h2>
-                               <p>This demo text can be changed while making the production ready website.</p>
+                               <h2>Frontend Development</h2>
+                               <p>ReactJS Frontend Developer, building interactive and responsive web applications.</p>
                            </div>
                        </div>
                        <div className="skillBar">
                            <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
                            <div className="skillBarText">
-                               <h2>App Design</h2>
-                               <p>You can write text related to mobile app development.</p>
+                               <h2>Backend Development</h2>
+                               <p>Backend Developer specializing in Node.js and Express.js for scalable applications.</p>
                            </div>
                        </div>
                    </div>
